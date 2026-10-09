@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.ejemplo.CalculadoraTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.598 s <<< FAILURE! -- in com.ejemplo.CalculadoraTest
+com.ejemplo.CalculadoraTest.testDividir -- Time elapsed: 0.041 s <<< ERROR!
+java.lang.IllegalArgumentException: No se puede dividir por cero
+	at com.ejemplo.Calculadora.dividir(Calculadora.java:16)
+	at com.ejemplo.CalculadoraTest.testDividir(CalculadoraTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

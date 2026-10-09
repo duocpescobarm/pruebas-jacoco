@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.ejemplo.CalculadoraTest" time="0.598" tests="3" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\dskrtrio\Documents\Duoc\DOY0101\Practicas\Laboratorios\05_Jacoco\pruebas-jacoco\target\test-classes;C:\Users\dskrtrio\Documents\Duoc\DOY0101\Practicas\Laboratorios\05_Jacoco\pruebas-jacoco\target\classes;C:\Users\dskrtrio\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\dskrtrio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\dskrtrio\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\dskrtrio\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\dskrtrio\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dskrtrio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\dskrtrio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\dskrtrio\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\dskrtrio\AppData\Local\Temp\surefire13803763458609093174\surefirebooter-20261009204846334_3.jar C:\Users\dskrtrio\AppData\Local\Temp\surefire13803763458609093174 2026-10-09T20-48-44_469-jvmRun1 surefire-20261009204846334_1tmp surefire_0-20261009204846334_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\dskrtrio\Documents\Duoc\DOY0101\Practicas\Laboratorios\05_Jacoco\pruebas-jacoco\target\test-classes;C:\Users\dskrtrio\Documents\Duoc\DOY0101\Practicas\Laboratorios\05_Jacoco\pruebas-jacoco\target\classes;C:\Users\dskrtrio\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\dskrtrio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\dskrtrio\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\dskrtrio\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\dskrtrio\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\dskrtrio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\dskrtrio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\dskrtrio\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dskrtrio"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\dskrtrio\Documents\Duoc\DOY0101\Practicas\Laboratorios\05_Jacoco\pruebas-jacoco"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\dskrtrio\AppData\Local\Temp\surefire13803763458609093174\surefirebooter-20261009204846334_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.17+10"/>
+    <property name="user.name" value="dskrtrio"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.17+10"/>
+    <property name="localRepository" value="C:\Users\dskrtrio\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\dskrtrio\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.17"/>
+    <property name="user.dir" value="C:\Users\dskrtrio\Documents\Duoc\DOY0101\Practicas\Laboratorios\05_Jacoco\pruebas-jacoco"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\dskrtrio\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\dskrtrio\bin;C:\Users\dskrtrio\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Users\dskrtrio\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\Program Files\OpenSSH;C:\Python314\Scripts;C:\Python314;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Users\dskrtrio\Documents\Automate_pentest\pentest\Scripts;C:\Users\dskrtrio\Documents\Automate_pentest\venv\Scripts;C:\Users\dskrtrio\AppData\Local\Microsoft\WindowsApps;C:\Users\dskrtrio\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dskrtrio\AppData\Local\Python\bin;C:\Tools\nuclei;C:\Tools\subfinder;C:\Program Files (x86)\Nmap;C:\Tools\ffuf;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\PuTTY;C:\Program Files\RedHat\Podman;C:\Users\dskrtrio\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\dskrtrio\AppData\Local\Programs\Python\Python312;C:\Users\dskrtrio\AppData\Roaming\npm;C:\Program Files\RedHat\Podman;C:\Program Files\GitHub CLI;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.16\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\PowerShell\7;C:\Users\dskrtrio\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\dskrtrio\AppData\Local\Programs\Python\Python312;C:\Users\dskrtrio\Documents\Automate_pentest\pentest\Scripts;C:\Users\dskrtrio\Documents\Automate_pentest\venv\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\dskrtrio\AppData\Local\Microsoft\WindowsApps;C:\Users\dskrtrio\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\dskrtrio\AppData\Local\Python\bin;C:\Tools\nuclei;C:\Tools\subfinder;C:\Users\dskrtrio\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.17+10"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testSumar" classname="com.ejemplo.CalculadoraTest" time="0.206"/>
+  <testcase name="testDividir" classname="com.ejemplo.CalculadoraTest" time="0.041">
+    <error message="No se puede dividir por cero" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: No se puede dividir por cero
+	at com.ejemplo.Calculadora.dividir(Calculadora.java:16)
+	at com.ejemplo.CalculadoraTest.testDividir(CalculadoraTest.java:22)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+]]></error>
+  </testcase>
+  <testcase name="testRestar" classname="com.ejemplo.CalculadoraTest" time="0.007"/>
+</testsuite>
